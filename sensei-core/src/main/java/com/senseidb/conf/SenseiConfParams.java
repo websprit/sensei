@@ -44,6 +44,7 @@ public interface SenseiConfParams {
 	public static final String SENSEI_QUERY_BUILDER_FACTORY = "sensei.query.builder.factory";
   public static final String SENSEI_SHARDING_STRATEGY = "sensei.sharding.strategy";
 	public static final String SENSEI_INDEX_MANAGER = "sensei.index.manager";
+	public static final String SENSEI_MAPRED_FACTORY = "sensei.mapreduce.accessor.factory";
 	public static final String SENSEI_INDEX_MANAGER_FILTER = "sensei.index.manager.filter";
 
 	public static final String SENSEI_GATEWAY = "sensei.gateway";
@@ -78,7 +79,7 @@ public interface SenseiConfParams {
 	public static final String SERVER_SEARCH_ROUTER_FACTORY = "sensei.search.router.factory";
 
 	public static final String SENSEI_INDEX_PRUNER = "sensei.index.pruner";
-
+	public static final String SENSEI_REQUEST_POSTPROCESSOR = "sensei.request.postrocessor";
 	public static final String SENSEI_ZOIE_RETENTION_DAYS = "sensei.indexing.retention.days";
   public static final String SENSEI_ZOIE_RETENTION_CLASS = "sensei.indexing.retention";
 
